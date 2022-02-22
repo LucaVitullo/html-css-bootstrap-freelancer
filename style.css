@@ -5,10 +5,12 @@
 .bg_green {
   background-color: #1abc9c;
 }
-.sez_1 {
-  padding: 50px;
-}
 
 .txt_white {
   color: white;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid white;
 }
