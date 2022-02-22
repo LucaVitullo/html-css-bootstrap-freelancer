@@ -9,10 +9,16 @@
 .txt_white {
   color: white;
 }
+.txt_green {
+  color: lightgreen;
+}
 
 a {
   text-decoration: none;
   border: 1px solid white;
   border-radius: 5px;
   color: white;
+}
+.bg_darkblue {
+  background-color: #3a546d;
 }
