@@ -12,7 +12,9 @@
 .txt_green {
   color: lightgreen;
 }
-
+.btn {
+  color: white;
+}
 a {
   text-decoration: none;
   border: 1px solid white;
@@ -28,4 +30,8 @@ a {
 .line {
   width: 40%;
   height: 3px;
+}
+
+img {
+  border-radius: 20px;
 }
