@@ -24,15 +24,43 @@
     <title>Bootsrap</title>
   </head>
   <body>
-    <header class="bg_blue txt_white">
-      <div class="container-fluid justify-content-md-center">
-        <div class="row txt_white">
-          <div class="col-6">START BOOTSTRAP</div>
-          <div class="col-2">PORTFOLIO</div>
-          <div class="col-2">ABOUT</div>
-          <div class="col-2">CONTACT</div>
+    <header class="bg_blue">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand border-0" href="#">START BOOTSTRAP</a>
+          <button
+            class="navbar-toggler d-md-none border-light navbar-dark justify-content-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="justify-content-end flex-row" id="navbarNavAltMarkup">
+            <div class="navbar-nav flex-row">
+              <a
+                class="nav-link active border-0 txt_white d-sm-none d-lg-flex d-md-flex d-none"
+                aria-current="page"
+                href="#"
+                >PORTFOLIO</a
+              >
+              <a
+                class="nav-link border-0 txt_white ms-2 d-sm-none d-lg-flex d-md-flex d-none"
+                href="#"
+                >ABOUT</a
+              >
+              <a
+                class="nav-link border-0 txt_white ms-2 d-sm-none d-lg-flex d-md-flex d-none"
+                href="#"
+                >CONTACT</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <section class="bg_green">
       <div class="container txt_white p-5">
@@ -40,7 +68,9 @@
           <img class="col-6" src="img/avatar.svg" alt="avatar" />
           <h2 class="col text-center">START BOOTSTRAP</h2>
           <div class="text-center">
-            <i class="fas fa-star"></i>
+            <div class="d-inline-block line bg_white"></div>
+            <span><i class="fas fa-star"></i></span>
+            <div class="d-inline-block line bg_white"></div>
           </div>
           <div class="text-center">
             GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
@@ -52,18 +82,21 @@
       <div class="container p-5">
         <div class="row row-cols-1 justify-content-center">
           <h3 class="col text-center">PORTFOLIO</h3>
-          <div class="text-center"><i class="fas fa-star"></i></div>
+          <div class="text-center">            
+             <div class="d-inline-block line bg-dark"></div>
+               <span><i class="fas fa-star"></i></span>
+             <div class="d-inline-block line bg-dark"></div></div></div>
         </div>
 
         <div
-          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center"
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center p-3"
         >
-          <img src="img/cabin.png" alt="cabin" />
-          <img src="img/cake.png" alt="cake" />
-          <img src="img/circus.png" alt="circus" />
-          <img src="img/game.png" alt="game" />
-          <img src="img/safe.png" alt="safe" />
-          <img src="img/submarine.png" alt="submarine" />
+          <img class="py-2" src="img/cabin.png" alt="cabin" />
+          <img class="py-2" src="img/cake.png" alt="cake" />
+          <img class="py-2" src="img/circus.png" alt="circus" />
+          <img class="py-2" src="img/game.png" alt="game" />
+          <img class="py-2" src="img/safe.png" alt="safe" />
+          <img class="py-2" src="img/submarine.png" alt="submarine" />
         </div>
       </div>
     </section>
@@ -71,19 +104,25 @@
       <div class="container p-5">
         <div class="row row-cols-1">
           <h3 class="col text-center">ABOUT</h3>
-          <div class="text-center"><i class="fas fa-star"></i></div>
-          <p class="col-lg-6 col-md-6 col-sm-12">
-            Freelancer is a free bootstrap theme created by Start Bootstrap. The
-            download includes the complete source files including HTML, CSS and
-            JavaScript as well as optional LESS stylesheets for easy
-            customization.
-          </p>
-          <p class="col-lg-6 col-md-6 col-sm-12">
-            Whether you're a student looking to showcase your work, a
-            professional looking to attract clients, or a graphic artist looking
-            to share your projects, this template is the perfect starting point!
-          </p>
-          <a class="text-center txt_white col-3 offset-4" href="#"
+          <div class="text-center">      
+           <div class="d-inline-block line bg_white"></div>
+          <span><i class="fas fa-star"></i></span>
+          <div class="d-inline-block line bg_white"></div>
+          <div class="row">       
+             <p class="col-lg-6 col-md-6 col-sm-12">
+                  Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                   download includes the complete source files including HTML, CSS and
+               JavaScript as well as optional LESS stylesheets for easy
+               customization.
+             </p>
+             <p class="col-lg-6 col-md-6 col-sm-12">
+               Whether you're a student looking to showcase your work, a
+               professional looking to attract clients, or a graphic artist looking
+               to share your projects, this template is the perfect starting point!
+             </p>
+           </div>
+
+          <a class="text-center txt_white col-3 p-1 " href="#"
             ><i class="fa-solid fa-download"></i> Download</a
           >
         </div>
@@ -91,17 +130,23 @@
     </section>
 
     <section>
-      <div class="container p-5">
+      <div class="container-fluid p-5">
         <div class="row row-cols-1 justify-content-center">
           <h3 class="col text-center">CONTACT ME</h3>
-          <div class="text-center"><i class="fas fa-star"></i></div>
+          <div class="text-center">           
+             <div class="d-inline-block line bg-dark"></div>
+               <span><i class="fas fa-star"></i></span>
+              <div class="d-inline-block line bg-dark"></div></div>
         </div>
         <div class="row row-cols-1 p-2 border-bottom">Name</div>
         <div class="row row-cols-1 p-2 border-bottom">Email Address</div>
         <div class="row row-cols-1 p-2 border-bottom">Phone Number</div>
         <div class="row row-cols-1 p-2 mb-5">Message</div>
         <div class="row row-cols-1 p-2 border-top">
-          <a class="bg_green col-1 txt_white py-1 px-3 text-center" href="#">
+          <a
+            class="bg_green col-lg-1 col-md-1 col-sm-2 col-2 txt_white py-1 px-3 text-center"
+            href="#"
+          >
             Send</a
           >
         </div>
@@ -110,21 +155,30 @@
 
     <footer class="bg_darkblue">
       <div class="container p-5">
-        <div class="row row-cols-lg-3 txt_white">
-          <div class="col-4 text-center">
+        <div class="row txt_white justify-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
             <h4>LOCATION</h4>
             <p>2215 Jhon Daniel Drive Clark, MO</p>
             <span>54243</span>
           </div>
-          <div class="col-4 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
             <h4>AROUND THE WEB</h4>
             <div class="row text-center">
-              <div class="col-3 rounded-circle border p-0">
-                <i class="fa-brands fa-twitter p-4"></i>
+              <div class="col-2 offset-2 rounded-circle border p-2">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="col-2 rounded-circle border p-2 ms-1">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="col-2 rounded-circle border p-2 ms-1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="col-2 rounded-circle border p-2 ms-1">
+                <i class="fa-brands fa-linkedin-in"></i>
               </div>
             </div>
           </div>
-          <div class="col-4 text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
             <h4>ABOUT FREELANCER</h4>
             <p>
               Freelance is a free to use, open source bootstrap theme created by
@@ -133,10 +187,10 @@
           </div>
         </div>
       </div>
-      <div class="container p-5 text-center bg_blue txt_white">
+      <div class="container-fluid p-5 text-center bg_blue txt_white fs-6">
         <p>
           Copyright
-          <i class="fa-solid fa-circle-c"></i> your website 2019
+          <i class="fa-regular fa-copyright"></i> your website 2019
         </p>
       </div>
     </footer>
